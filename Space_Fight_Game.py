@@ -1,14 +1,9 @@
-
+##################################################
+# Space Fight By GCOEA Students 
+##################################################
 import pygame
 import os
 import random
-
-##################################################
-
-##################################################
-import pygame
-import os
-
 
 class Spaceship():
     def __init__(self, width, height):
