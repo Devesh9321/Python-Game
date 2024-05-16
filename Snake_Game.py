@@ -51,8 +51,8 @@ def gameloop():
     snk_length = 1
 
     #   Ploting the food on the game window
-    food_x = random.randint(20, screen_width / 2)
-    food_y = random.randint(20, screen_height / 2)
+    food_x = random.randint(20, int(screen_width / 2))
+    food_y = random.randint(20, int(screen_height / 2))
     score = 0
     init_velocity = 5
     snake_size = 30
